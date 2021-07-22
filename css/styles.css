@@ -98,7 +98,7 @@ input
 {
     padding:0.8rem 1rem;
     border: 1px solid var(--Desaturated-Red);
-    width: -webkit-fill-available;
+    width: 100%;
     border-radius: 1.25rem;
     margin-bottom: 15px;
 }
@@ -148,6 +148,19 @@ input:focus
 {
     height: 20px;
     width: 15px;
+}
+
+#error_img
+{
+    position: absolute;
+    right: 90px;
+    top: 10px;
+    display: none;
+}
+
+.imgg
+{
+    display: block;
 }
 
 #error

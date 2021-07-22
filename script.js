@@ -21,10 +21,12 @@ function validate(emailString) {
   if (!Result) {
     document.getElementById("error").innerHTML = "Please provide a valid email";
     document.getElementById("emaill").classList.add("invalid");
+    document.getElementById("error_img").style.display = "block";
   }
   else
   {
     document.getElementById("error").innerHTML = "";
     document.getElementById("emaill").classList.remove("invalid");
+    document.getElementById("error_img").style.display = "none";
   }
 }
