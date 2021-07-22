@@ -101,6 +101,7 @@ input
     width: 100%;
     border-radius: 1.25rem;
     margin-bottom: 15px;
+    background:transparent;
 }
 
 .invalid
